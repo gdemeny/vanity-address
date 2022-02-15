@@ -64,5 +64,5 @@ Please submit any issues at https://github.com/gdemeny/vanity-address/issues.
 If you like this application and want to contribute to my coffee fund, send me a Satoshi/Wei/Lamport to either of my fancy new addresses:
 
 BTC: 1Demeny6ma7k48nm5E1hctrreRwVUxJT7K<br/>
-ETH: [Stil calculating...]<br/>
+ETH: [Still calculating...]<br/>
 SOL: DemenyvBQ8awDvaDnwcsVszq7MdhwqDw7LsoNvTw6LVq

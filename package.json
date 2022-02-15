@@ -1,28 +1,35 @@
 {
-  "name": "bitcoin-vanity-address",
+  "name": "vanity-address",
   "version": "1.0.0",
-  "description": "A very basic node.js application that attempts to generate a vanity Bitcoin wallet address that starts with a user provided string",
-  "main": "bitcoin-vanity-address.js",
+  "description": "A very basic Node.js application that attempts to generate a vanity wallet address that starts with a user provided string",
+  "main": "vanity-address.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gdemeny/bitcoin-vanity-address.git"
+    "url": "git+https://github.com/gdemeny/vanity-address.git"
   },
   "keywords": [
     "bitcoin",
+    "ethereum",
+    "solana",
     "vanity",
     "address",
-    "wallet"
+    "wallet",
+    "btc",
+    "eth",
+    "sol"
   ],
   "author": "George Demeny",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gdemeny/bitcoin-vanity-address/issues"
+    "url": "https://github.com/gdemeny/vanity-address/issues"
   },
-  "homepage": "https://github.com/gdemeny/bitcoin-vanity-address#readme",
+  "homepage": "https://github.com/gdemeny/vanity-address#readme",
   "dependencies": {
-    "bitcore-lib": "^8.25.25"
+    "@solana/web3.js": "^1.34.0",
+    "bitcore-lib": "^8.25.25",
+    "ethers": "^5.5.4"
   }
 }

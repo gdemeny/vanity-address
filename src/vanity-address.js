@@ -69,7 +69,7 @@ do {
             break;
         case 'eth':
             priv = "0x" + crypto.randomBytes(32).toString('hex');
-            pub = (new ethers.Wallet(priv)).address;
+            pub = (new ethers.Wallet(priv)).address.toLowerCase();
             break;
         case 'sol':
             pk = solanaWeb3.Keypair.generate();
